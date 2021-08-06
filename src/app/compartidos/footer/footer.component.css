@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 1100px) {
+    div#wrapEncuentranos {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div#divLogo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    footer {
+        padding: 10px 10px !important;
+    }
+    p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    div.ubica>div>div>p {
+        /* color: red; */
+        margin-bottom: 0px;
+    }
+}
+
+li, h1, h2, h3, p {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+p, i, a {
+    color: rgb(236, 236, 236);
+}
+
+p {
+    font-size: 1rem;
+}
+
+a:hover {
+    color: #7D53DE;
+    transition: all 0.3s;
+}
+
+footer {
+    /* border: 1px solid red; */
+    height: auto;
+    margin-top: 200px;
+    background-color: rgb(45, 44, 44);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 20px;
+    width: 100%;
+}
+
+#wrapEncuentranos {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+}
+
+#wrapEncuentranos>p {
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#divTodos {
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#ubicacion {
+    display: flex;
+    flex-direction: column;
+}
+
+.ubica {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ubica>i {
+    margin-right: 15px;
+    font-size: 1.3rem;
+}
+
+.divRedes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.divRedes>i {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 15px;
+    font-size: 1.3rem;
+}

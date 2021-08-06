@@ -1,0 +1,23 @@
+<app-navbar></app-navbar>
+<div id="divBanner">
+    <img [src]="tipServicio.ImgBanner" alt="Remodelación">
+    <div id="divDesc">
+        <h1 id="tituloBanner">{{tipServicio.tituloBanner}}</h1>
+        <h3>{{tipServicio.descripcionBanner}}</h3>
+        <div id="btnBanner" routerLink="/contacto">Contáctenos</div>
+    </div>
+</div>
+
+<div id="wrapSubservicio" *ngFor="let servicio of tipServicio.servicio">
+    <div id="wrapServicio" [ngStyle]="{'flex-direction': servicio.revers === true ? 'row-reverse' : 'row'}">
+        <div class="divImg">
+            <img [src]="servicio.imgServicio" alt="Remodelación de casas">
+        </div>
+        <div>
+            <h3>{{servicio.tituloServicio}}</h3>
+            <p>{{servicio.descServicio}}</p>
+            <div routerLink="/contacto">Contáctenos</div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

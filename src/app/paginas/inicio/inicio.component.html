@@ -1,0 +1,134 @@
+<app-navbar></app-navbar>
+<!-- banner -->
+<div id="divBanner">
+    <video class="ratio ratio-1x1" src="../../../assets/design1.1.mp4" autoplay loop muted #video></video>
+    <div id="divPresent">
+        <div id="divTitulos">
+            <h1>Bienvenido a VIPAL Panamá</h1>
+            <h2>Su aliado en servicios de construcción</h2>
+        </div>
+        <div id="btnContactoBanner" routerLink="/contacto">Contáctenos</div>
+    </div>
+</div>
+
+<!-- lo que hacemos -->
+<div id="divLoquehacemos">
+    <h3 id="txtLoqueHacemos" class="titulosInicio">Nuestros servicios</h3>
+    <div id="tarjetas">
+
+        <!-- bloque1 -->
+        <div class="bloquesTarjetas" style="margin-bottom: 70px;">
+            <!-- remodelacion -->
+            <div class="divServicio">
+                <div class="divImgLoque">
+                    <img src="../../../assets/vidrio-aluminio5.png" alt="Remodelación">
+                </div>
+                <h3 class="tituloTarjetas">Aluminio y vidrio</h3>
+                <p>Suministro e instalacion de Vidrios y todas sus aplicaciones, fachadas comerciales, Divisiones de
+                    oficinas, ventanas, puertas, louvers, Espejos, Barandas, Acero inoxidable, pergolas, puertas
+                    automaticas, Vidrio tenplado y de seguridad, Muro Cortina, sobres de mesa.</p>
+                <div class="btnLoque" (click)="irAluminio()">Ver más</div>
+            </div>
+            <!-- aluminio y vidrio -->
+            <div class="divServicio">
+                <div class="divImgLoque">
+                    <img src="../../../assets/remodelacion1.png" alt="Remodelación">
+                </div>
+                <h3 class="tituloTarjetas">Remodelación</h3>
+                <p>Remodelaciones de casas, aptos, locales comerciales etc...</p>
+                <div class="btnLoque" (click)="irRemodelacion()">Ver más</div>
+            </div>
+        </div>
+
+        <!-- bloque2 -->
+        <div class="bloquesTarjetas">
+            <!-- gypsum -->
+            <div class="divServicio">
+                <div class="divImgLoque">
+                    <img src="../../../assets/gypsum1.png" alt="Gypsum">
+                </div>
+                <h3 class="tituloTarjetas">Gypsum</h3>
+                <p>Paredesde Gypsum, Decoraciones, Techos, Diseños, Cielo Raso Suspendido, Pasteo Pared, Mantenimiento y
+                    Pintura.</p>
+                <div class="btnLoque" (click)="irGypsum()">Ver más</div>
+            </div>
+            <!-- electricidad -->
+            <div class="divServicio">
+                <div class="divImgLoque">
+                    <img src="../../../assets/electricidad1.png" alt="Electricidad">
+                </div>
+                <h3 class="tituloTarjetas">Electricidad</h3>
+                <p>Mantenimiento Eléctrico
+                    Construcción de Baja Tensión
+                    Construcción Líneas Eléctricas
+                    Construcción de Líneas Eléctricas Subterraneas
+                    Distribuision y cableado
+                    Mantenimiento
+                    Luminarias.</p>
+                <div class="btnLoque" style="bottom: 0px;" (click)="irElectricidad()">Ver más</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- acerca de nosotros -->
+<div id="divAcerca">
+    <h3 id="txtLoqueHacemos" class="titulosInicio">Acerca de nosotros</h3>
+    <p>Somos una empresa de profesionales con mas de 15 años de experiencia, presente en la República de Panamá,
+        Ejercemos los servicios de Remodelaciones y construccion, nuestras operaciones en el área del aluminio y vidrio,
+        gypsum, electricidad recidencial, en vipal s.a. ofrecemos productos de la mejor calidad.</p>
+
+</div>
+
+<!-- galeria -->
+
+<div id="wrapGal">
+    <div id="gal1" class="divGal">
+        <div class="efectoGalery" (click)="irRemodelacion()">
+            <img src="../../../assets/remodelacion2.png" alt="Remodelacion">
+            <div class="efecto">
+                <p>Remodelaciones</p>
+            </div>
+        </div>
+        <div class="efectoGalery" (click)="irElectricidad()">
+            <img src="../../../assets/gypsum2.png" alt="Gypsum">
+            <div class="efecto">
+                <p>Luminarias | Electricidad</p>
+            </div>
+        </div>
+        <div class="efectoGalery" (click)="irAluminio()">
+            <img src="../../../assets/vidrio-aluminio1.png" alt="Vidrio y aluminio">
+            <div class="efecto">
+                <p>divisiones de oficina | Vidrio templado</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="gal2" class="divGal">
+        <div class="efectoGalery" (click)="irElectricidad()">
+            <img src="../../../assets/electricidad2.png" alt="Electricidad">
+            <div class="efecto">
+                <p>Panel eléctrico | Electricidad</p>
+            </div>
+        </div>
+        <div class="efectoGalery" (click)="irGypsum()">
+            <img src="../../../assets/gypsum3.png" alt="Gypsum">
+            <div class="efecto">
+                <p>Muebles de madera | Ebanistería</p>
+            </div>
+        </div>
+        <div class="efectoGalery" (click)="irRemodelacion()">
+            <img src="../../../assets/remodelacion3.png" alt="Remodelación">
+            <div class="efecto">
+                <p>Acabados en gypsum | Remodelación</p>
+            </div>
+        </div>
+        <div class="efectoGalery" (click)="irAluminio()">
+            <img src="../../../assets/vidrio1.png" alt="Vidrio">
+            <div class="efecto">
+                <p>Balcon de Vidrio | Vidrio y Remodelación</p>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

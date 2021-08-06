@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+* {
+    box-sizing: border-box !important;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    /* margin: 0px !important;
+    padding: 0px !important; */
+    /* border: 1px solid gray; */
+    /* border: 1px solid white; */
+}
+
+@media screen and (max-width: 1600px) {
+    div#divLoquehacemos {
+        width: 70%;
+    }
+    div#divPresent {
+        /* bottom: 150px; */
+    }
+}
+
+@media screen and (max-width: 1537px) {
+    div#divBanner {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    div#divPresent {
+        bottom: 150px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    div#divLoquehacemos {
+        width: 85%;
+        /* margin-top: 200px; */
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    div#divLoquehacemos {
+        width: 100%;
+        /* margin-top: -150px; */
+    }
+}
+
+@media screen and (max-width: 992px) {
+    div#divLoquehacemos {
+        margin-top: 100px;
+    }
+    div#tarjetas {
+        margin-top: -50px;
+    }
+    div.divServicio {
+        width: 75%;
+        height: 650px;
+        margin-bottom: 100px;
+    }
+    div#divLoquehacemos>h3 {
+        font-size: 2rem;
+    }
+    div.bloquesTarjetas {
+        /* border: 1px solid rgb(255, 255, 255); */
+        flex-direction: column !important;
+    }
+    div.btnLoque {
+        bottom: 20px;
+    }
+    div#divPresent {
+        bottom: 100px;
+    }
+    div#divTitulos>h1 {
+        font-size: 2rem;
+    }
+    div#divTitulos>h2 {
+        font-size: 1.4rem;
+    }
+
+    #divAcerca {
+        /* border: 1px solid blue; */
+        margin-top: -150px !important;
+        width: 80% !important;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    div#btnContactoBanner {
+        width: 220px;
+        height: 45px;
+        font-size: 1.3rem;
+    }
+    div#divPresent {
+        /* border: 1px solid red; */
+        bottom: 80px;
+        height: 120px !important;
+    }
+
+    div.btnLoque {
+        bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div.divServicio {
+        /* border: 1px solid red; */
+        width: 95%;
+        /* width: 75%;
+        height: 650px;
+        margin-bottom: 100px; */
+    }
+
+    #divAcerca {
+        /* border: 1px solid blue; */
+        /* margin-top: -150px !important; */
+        width: 90% !important;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    div#btnContactoBanner {
+        width: 200px;
+        height: 40px;
+        font-size: 1.1rem;
+    }
+    div#divPresent {
+        /* border: 1px solid red; */
+        bottom: 80px;
+        height: 150px !important;
+        min-height: 150px !important;
+    }
+    div#divTitulos>h1 {
+        font-size: 1.7rem;
+        margin-bottom: 0px;
+    }
+    div#divTitulos>h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    div.divServicio {
+        height: 600px;
+        /* margin-bottom: 100px; */
+    }
+}
+
+@media screen and (max-width: 634px) {
+    div#divPresent {
+        /* border: 1px solid red; */
+        bottom: 20px;
+        height: 150px !important;
+        min-height: 150px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    div.divServicio {
+        height: 550px;
+        margin-bottom: 80px !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #divAcerca {
+        width: 95% !important;
+    }
+    #divAcerca>h3 {
+        font-size: 2rem;
+    }
+    #divAcerca>p {
+        margin-top: -80px !important;
+    }
+    h3.titulosInicio {
+        font-size: 1.5rem !important;
+    }
+    h3.tituloTarjetas {
+        font-size: 1.1rem !important;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+    div#divPresent {
+        left: 25px;
+    }
+    div#divTitulos>h1 {
+        font-size: 1.5rem;
+    }
+    div#divTitulos>h2 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div.divServicio {
+        height: 500px;
+        /* margin-bottom: 80px !important; */
+    }
+}
+
+@media screen and (max-width: 460px) {
+    div#divPresent {
+        /* border: 1px solid red; */
+        min-height: 110px !important;
+        height: 110px !important;
+    }
+    div#divTitulos>h1 {
+        font-size: 1.3rem;
+    }
+    div#divTitulos>h2 {
+        font-size: 0.9rem;
+        margin-top: -10px;
+    }
+    div#btnContactoBanner {
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    div#divPresent {
+        /* border: 1px solid red; */
+        min-height: 110px !important;
+        height: 110px !important;
+        left: 15px;
+        bottom: 15px;
+    }
+    div#divTitulos>h1 {
+        font-size: 1.1rem;
+    }
+    div#divTitulos>h2 {
+        font-size: 0.7rem;
+        margin-top: -10px;
+    }
+    div#btnContactoBanner {
+        width: 150px;
+        font-size: 1rem;
+    }
+    div.divServicio {
+        height: 480px;
+        /* margin-bottom: 80px !important; */
+    }
+}
+
+@media screen and (max-width: 340px) {
+    div#divPresent {
+        /* border: 1px solid red; */
+        min-height: 110px !important;
+        height: 110px !important;
+        left: 15px;
+        bottom: 5px;
+    }
+    div#divTitulos>h1 {
+        font-size: 1.1rem;
+    }
+    div#divTitulos>h2 {
+        font-size: 0.7rem;
+        margin-top: -10px;
+    }
+    div#btnContactoBanner {
+        width: 120px;
+        height: 35px;
+        font-size: 0.8rem;
+    }
+}
+
+li, h1, h2, h3, p {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+div.bloquesTarjetas {
+    /* border: 1px solid rgb(255, 255, 255); */
+    flex-direction: row;
+}
+
+/* banner */
+
+#divBanner {
+    /* border: 1px solid red; */
+    /* height: auto; */
+    margin-top: 60px;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+#divBanner>video {
+    position: relative;
+    width: 100vw;
+    display: block;
+    /* height: 100vh; */
+    z-index: -3;
+}
+
+#divPresent {
+    /* border: 1px solid blue; */
+    position: absolute;
+    bottom: 300px;
+    left: 50px;
+    z-index: 3;
+    /* height: 150px; */
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#divTitulos>h1 {
+    font-weight: 900 !important;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px black;
+    font-size: 2.7rem;
+}
+
+#divTitulos>h2 {
+    font-weight: 900 !important;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px black;
+    font-size: 1.7rem;
+}
+
+#btnContactoBanner {
+    border: 1px solid rgb(207, 207, 207);
+    width: 250px;
+    height: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px black;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#btnContactoBanner:hover {
+    background-color: rgba(128, 128, 128, 0.3);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+/* lo que hacemos */
+
+#divLoquehacemos {
+    /* border: 1px solid red; */
+    margin: 200px auto;
+    width: 60%;
+}
+
+/* #txtLoqueHacemos {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: rgb(233, 233, 233);
+    width: 100%;
+    text-align: center;
+    padding-bottom: 80px;
+} */
+
+.titulosInicio {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: rgb(233, 233, 233);
+    width: 100%;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.bloquesTarjetas {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+#tarjetas {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.divServicio {
+    /* border: 1px solid wheat; */
+    position: relative;
+    width: 450px;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.divServicio>h3 {
+    color: rgb(233, 233, 233);
+    font-size: 1.2rem;
+    padding: 0px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.divServicio>p {
+    color: rgb(233, 233, 233);
+    font-size: 1rem;
+    /* padding: 20px; */
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.5;
+    margin-top: 0px;
+}
+
+.divImgLoque {
+    /* border: 1px solid yellow; */
+    width: 100%;
+    /* height: auto; */
+}
+
+.divImgLoque>img {
+    width: 100%;
+}
+
+.btnLoque {
+    border: 1px solid rgb(207, 207, 207);
+    width: 200px;
+    height: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px black;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.btnLoque:hover {
+    background-color: rgba(128, 128, 128, 0.3);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+/* acerca de nosotros */
+
+#divAcerca {
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    width: 60%;
+    line-break: auto;
+}
+
+#divAcerca>p {
+    color: rgb(233, 233, 233);
+    font-size: 1rem;
+    padding: 20px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.5;
+    margin-top: -50px;
+    width: 100%;
+}
+
+#wrapGal {
+    /* border: 1px solid green; */
+    margin: 200px auto;
+    height: auto;
+    /* width: 100%; */
+    /* margin-top: 200px; */
+}
+
+.divGal {
+    /* border: 1px solid blue; */
+    display: grid;
+}
+
+.divGal>div {
+    /* border: 1px solid red; */
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.divGal>div:hover img {
+    transform: scale(1.1);
+}
+
+.divGal>div>img {
+    width: 100%;
+    /* height: 100%; */
+    transition: all 0.6s;
+    z-index: -3;
+}
+
+#gal1 {
+    /* border: 1px solid yellow; */
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: 250px;
+    margin-bottom: 10px;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+#gal2 {
+    grid-template-columns: repeat(4, 400px);
+    grid-template-rows: 250px;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+/* #gal2>div>img {
+    width: 100%;
+}
+
+#gal1>div>img {
+    width: 100%;
+} */
+
+.efecto {
+    /* border: 1px solid purple; */
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+    /* bottom: -40px; */
+    bottom: 0px;
+    left: 0px;
+    height: 40px;
+    display: fleX;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.efecto>p {
+    /* border: 1px solid green; */
+    /* text-shadow: 1px 1px gray; */
+    color: rgb(14, 14, 14);
+    width: 100%;
+    font-weight: 400;
+    font-size: 1rem;
+}

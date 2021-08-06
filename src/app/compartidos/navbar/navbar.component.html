@@ -1,0 +1,30 @@
+<!-- navegacion -->
+<nav id="navbar">
+    <div id="divImg">
+        <img src="../../../assets/logo.png" alt="Logo">
+    </div>
+    <ul id="ulNav">
+        <li><a routerLink="/inicio">Inicio</a></li>
+        <li id="servicios" style="position: relative" #servicio><a>Servicios</a></li>
+        <!-- <li><a>Contacto</a></li> -->
+        <li><a routerLink="/contacto">Contacto</a></li>
+    </ul>
+    <i class="fas fa-bars" id="bars" (click)="cerrarAbrir(bandera)" #bars></i>
+</nav>
+
+<nav id="navResp" class="animate__animated animate__faster">
+    <!-- <i class="far fa-times-circle" id="close"></i> -->
+    <ul id="ulResp">
+        <li><a routerLink="/inicio">Inicio</a></li>
+        <li id="servicios" style="position: relative" #servicioResp><a>Servicios <i
+                    style="font-size: 0.9rem; margin-left: 5px;" id="indicador" class="fas fa-plus"></i></a>
+        </li>
+        <ul id="ulSubResp">
+            <li class="liResp" (click)="irServicio('Aluminio y vidrios')">Aluminio y vidrios</li>
+            <li class="liResp" (click)="irServicio('Remodelaciones')">Remodelaciones</li>
+            <li class="liResp" (click)="irServicio('Gypsum')">Gypsum</li>
+            <li class="liResp" (click)="irServicio('Electricidad')">Electricidad</li>
+        </ul>
+        <li><a routerLink="/contacto">Contacto</a></li>
+    </ul>
+</nav>
